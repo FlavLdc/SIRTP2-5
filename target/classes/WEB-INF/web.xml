@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	 <servlet>
+		 <servlet-name>Test</servlet-name>
+		 <servlet-class>servlet.UserInfo</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		 <servlet-name>Test</servlet-name>
+		 <url-pattern>/UserInfo</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+		 <servlet-name>AccesBDD</servlet-name>
+		 <servlet-class>servlet.AccesBDD</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		 <servlet-name>AccesBDD</servlet-name>
+		 <url-pattern>/AccesBDD</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+		 <servlet-name>InsertBDD</servlet-name>
+		 <servlet-class>servlet.InsertBDD</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		 <servlet-name>InsertBDD</servlet-name>
+		 <url-pattern>/InsertBDD</url-pattern>
+	 </servlet-mapping>
+ </web-app>
